@@ -27,7 +27,7 @@ val error3 = error(3.333, resultado3)
 
 val f4 = (x: Double) => (2 * x + 1) / (math.pow(x, 2) + x)
 val resultado4 = integracion(f4, 1.0, 2.0)
-val error4 = error(1.08861, resultado4)
+val error4 = error(1.09861, resultado4)
 
 
 val f5 = (x: Double) => math.exp(x)
